@@ -1,0 +1,36 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon ./build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "1.20.3",
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.3",
+    "dotenv": "4.0.0",
+    "express": "4.15.3",
+    "helmet": "3.6.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "morgan": "1.8.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "1.16.4",
+    "@types/cookie-parser": "1.4.7",
+    "@types/cors": "2.8.1",
+    "@types/express": "5.0.0",
+    "@types/helmet": "0.0.48",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "1.7.32",
+    "nodemon": "1.11.0",
+    "typescript": "5.6.2"
+  }
+}
